@@ -88,9 +88,9 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
     serve.py will start a Python server on port 8000. This script needs swagger.json file which I downloaded and placed in the working directory
     
     
-    ```
+```
     docker run -p 9000:8080 swaggerapi/swagger-ui
-    ```
+ ```
     
    - ![image](https://user-images.githubusercontent.com/32674614/156668636-5479aacb-e63a-488f-8362-49ec1a001ffb.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668718-d510a548-c9b5-4953-897a-2c70ec04a71a.png)
@@ -100,14 +100,15 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
    - ![image](https://user-images.githubusercontent.com/32674614/156668838-b4ad761e-2efa-42b2-9fc4-67820121b114.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668863-b9946be4-9265-4aee-a34b-9d0a76709a94.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668889-76315eb1-33e9-452d-bf2a-f7aca576a3a1.png)
-   - 
-
-
-
-
-
-
-
+   
 - Consume model endpoints
+   ### Step 6: Consume Model Endpoints
+    Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to runBefore running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment.
+    
+```
+scoring_uri = 'http://e70d6ee6-73d9-43fa-aeed-f0c281d6a214.southcentralus.azurecontainer.io/score'
+key ='sVpcS6jiegm8sEGvdXyXT4paPpdzivxK'
+```
+    
 - Create and publish a pipeline
 - Documentation
