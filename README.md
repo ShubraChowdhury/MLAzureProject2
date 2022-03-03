@@ -83,14 +83,14 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
     
 - Swagger Documentation
  ## Step 5: Swagger Documentation
-      In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
+    In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
     swagger.sh will download the latest Swagger container, and it will run it on port 80. I didn't had permissions for port 80 so instead I have used port 9000
     serve.py will start a Python server on port 8000. This script needs swagger.json file which I downloaded and placed in the working directory
     
     
 ```
     docker run -p 9000:8080 swaggerapi/swagger-ui
- ```
+```
     
    - ![image](https://user-images.githubusercontent.com/32674614/156668636-5479aacb-e63a-488f-8362-49ec1a001ffb.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668718-d510a548-c9b5-4953-897a-2c70ec04a71a.png)
@@ -108,6 +108,58 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
 ```
 scoring_uri = 'http://e70d6ee6-73d9-43fa-aeed-f0c281d6a214.southcentralus.azurecontainer.io/score'
 key ='sVpcS6jiegm8sEGvdXyXT4paPpdzivxK'
+```
+
+```
+Two sets of data to score, so we get two results back
+data = {"data":
+        [
+          {
+            "age": 17,
+            "job": "blue-collar",
+            "marital": "married",
+            "education": "university.degree",
+            "default": "no",
+            "housing": "yes",
+            "loan": "yes",
+            "contact": "cellular",
+            "month": "may",
+            "day_of_week": "mon",
+            "duration": 971,
+            "campaign": 1,
+            "pdays": 999,
+            "previous": 1,
+            "poutcome": "failure",
+            "emp.var.rate": -1.8,
+            "cons.price.idx": 92.893,
+            "cons.conf.idx": -46.2,
+            "euribor3m": 1.299,     
+            "nr.employed": 5099.1,      
+          },
+          {
+            "age": 87,
+            "job": "blue-collar",
+            "marital": "married",
+            "education": "university.degree",
+            "default": "no",
+            "housing": "yes",
+            "loan": "yes",
+            "contact": "cellular",
+            "month": "may",
+            "day_of_week": "mon",
+            "duration": 471,
+            "campaign": 1,
+            "pdays": 999,
+            "previous": 1,
+            "poutcome": "failure",
+            "emp.var.rate": -1.8,
+            "cons.price.idx": 92.893,
+            "cons.conf.idx": -46.2,
+            "euribor3m": 1.299, 
+            "nr.employed": 5099.1,   
+          },
+      ]
+    } 
 ```
     
 - Create and publish a pipeline
