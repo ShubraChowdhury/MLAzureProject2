@@ -2,6 +2,9 @@
 ## Overview
 In this project, you will continue to work with the Bank Marketing dataset. We will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. W will also create, publish, and consume a pipeline. 
 
+## Architecture
+![image](https://user-images.githubusercontent.com/32674614/156673375-01e54d69-e9f9-4a1f-98d4-a3ff9273e7ef.png)
+
 ## Project main steps
 In this project, you will following the below steps:
 
