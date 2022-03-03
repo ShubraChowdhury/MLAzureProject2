@@ -65,13 +65,9 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
      Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you.
      - Add following code to logs.py
      ```
-     # Set with the deployment name
-name = "automlvotingensemble"
-
-# load existing web service
-service = Webservice(name=name, workspace=ws)
-
-service.update(enable_app_insights=True)
+     name = "automlvotingensemble"
+     service = Webservice(name=name, workspace=ws)
+     service.update(enable_app_insights=True)
 ```
      
 - Swagger Documentation
