@@ -191,6 +191,13 @@ data = {"data":
 ### validating JSON on [JSONLint](https://jsonlint.com/)
 ![image](https://user-images.githubusercontent.com/32674614/156670845-64c01647-fad9-4e29-9e5c-72445ee04005.png)
 
+### testing same JSON data in experiment (I get correct result)
+![image](https://user-images.githubusercontent.com/32674614/156671309-048e8553-dfdd-4a4a-85b1-ab4ac30e2810.png)
+![image](https://user-images.githubusercontent.com/32674614/156671321-3755b471-ec8e-4009-a2f2-03f149fdb947.png)
+![image](https://user-images.githubusercontent.com/32674614/156671342-9fbc9ef1-3d53-4ace-a04d-c4270aaa7b3f.png)
+
+### Validating Azure not permiting requests.post( ..to my user,resp.status_code return 502, access denied by gateway 
+![image](https://user-images.githubusercontent.com/32674614/156671539-628cff21-1075-4209-86d2-64696e91e92c.png)
 
 
 - Create and publish a pipeline
