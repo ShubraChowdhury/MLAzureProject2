@@ -161,6 +161,11 @@ data = {"data":
       ]
     } 
 ```
-    
+ Sequence of Columns of above JSON matches with the columns in CSV file and the view generated in SWAGER
+ ```
+ age,job,marital,education,default,housing,loan,contact,month,day_of_week,duration,campaign,pdays,previous,poutcome,emp.var.rate,cons.price.idx,cons.conf.idx,euribor3m,nr.employed,y
+57,technician,married,high.school,no,no,yes,cellular,may,mon,371,1,999,1,failure,-1.8,92.89299999999999,-46.2,1.2990000000000002,5099.1,no
+55,unknown,married,unknown,unknown,yes,no,telephone,may,thu,285,2,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
+ ```
 - Create and publish a pipeline
 - Documentation
