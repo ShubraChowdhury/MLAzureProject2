@@ -80,15 +80,34 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156617445-cbc6bf1b-d82e-4848-a023-8e4f16aee8f8.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156617491-a957cfd2-579d-4ad7-84a0-379a760dca03.png)
 
-
-
-
-
-
-
-
     
 - Swagger Documentation
+ ## Step 5: Swagger Documentation
+      In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
+    swagger.sh will download the latest Swagger container, and it will run it on port 80. I didn't had permissions for port 80 so instead I have used port 9000
+    serve.py will start a Python server on port 8000. This script needs swagger.json file which I downloaded and placed in the working directory
+    
+    
+    ```
+    docker run -p 9000:8080 swaggerapi/swagger-ui
+    ```
+    
+   - ![image](https://user-images.githubusercontent.com/32674614/156668636-5479aacb-e63a-488f-8362-49ec1a001ffb.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668718-d510a548-c9b5-4953-897a-2c70ec04a71a.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668761-7910da74-bf5f-415a-8542-244cb464c9a9.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668794-f31bc130-f93f-47a4-815f-fbbb9f0d4006.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668813-f151abe1-c05f-4f88-99d1-1a537e3e371a.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668838-b4ad761e-2efa-42b2-9fc4-67820121b114.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668863-b9946be4-9265-4aee-a34b-9d0a76709a94.png)
+   - ![image](https://user-images.githubusercontent.com/32674614/156668889-76315eb1-33e9-452d-bf2a-f7aca576a3a1.png)
+   - 
+
+
+
+
+
+
+
 - Consume model endpoints
 - Create and publish a pipeline
 - Documentation
