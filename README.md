@@ -27,6 +27,10 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
  - 5.
  ![image](https://user-images.githubusercontent.com/32674614/156612243-f391ce6d-08af-4f31-9d19-3d147faca0a2.png)
 
+- ### Creation of Compute Cluster
+   - ![ComputeCluster](https://user-images.githubusercontent.com/32674614/156613032-8d31be24-feb6-4354-98b3-bcb30471b70d.png)
+- ### Creation of Compute Instance
+  - ![ComputeInstance](https://user-images.githubusercontent.com/32674614/156613199-b6091322-bac0-4524-b7bf-a038631d3583.png)
 
 
 - Deploy the best model
