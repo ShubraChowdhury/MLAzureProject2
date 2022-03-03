@@ -52,16 +52,28 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156614654-5944aa8d-bbb9-4688-a890-0cca20e282cb.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614690-9ba4b6a7-44ad-4ac8-a43b-f7d52cc2a300.png)
 - Deploy the best model
-   #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
+   #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.(enable Application Insights )
   - ![image](https://user-images.githubusercontent.com/32674614/156615159-8e43c573-ebc3-4198-ba57-71da0ed07e9a.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156615213-4d7e4252-da56-42e5-8d32-4d07f145552e.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156615271-b2a02358-ee8f-4d44-8949-d727e0c2fc35.png)
-
-
-
-
+  - ![image](https://user-images.githubusercontent.com/32674614/156615547-106bbe1a-9dfb-45c1-bc1e-53d3b053ef46.png)
+  - ![image](https://user-images.githubusercontent.com/32674614/156615604-7691bd5f-7747-4693-96ab-d6fa7bde0a60.png)
+  - ![image](https://user-images.githubusercontent.com/32674614/156615644-0c0a633b-2199-4325-8c73-d99cb92d8473.png)
 
 - Enable logging
+  ## Step 4: Enable Application Insights
+     Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you.
+     - Add following code to logs.py
+     ```
+     # Set with the deployment name
+name = "automlvotingensemble"
+
+# load existing web service
+service = Webservice(name=name, workspace=ws)
+
+service.update(enable_app_insights=True)
+```
+     
 - Swagger Documentation
 - Consume model endpoints
 - Create and publish a pipeline
