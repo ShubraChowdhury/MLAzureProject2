@@ -64,7 +64,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   ## Step 4: Enable Application Insights
      Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you.
      - Add following code to logs.py
-     ```
+```
      name = "automlvotingensemble"
      service = Webservice(name=name, workspace=ws)
      service.update(enable_app_insights=True)
