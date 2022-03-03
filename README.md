@@ -5,10 +5,11 @@ In this project, you will continue to work with the Bank Marketing dataset. We w
 ## Project main steps
 In this project, you will following the below steps:
 
-- Authentication
+
+## Step 1: Authentication
 I have usedthe lab Udacity provided and thus I have skipped this step since I am  not authorized to create a security principal. 
 
-- Automated ML Experiment
+## Step 2: Automated ML Experiment
  In this step, I have created an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
  
   - ### Dataset used
@@ -51,7 +52,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156614610-7cb1e459-ba22-41df-b230-71a0ccd397cc.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614654-5944aa8d-bbb9-4688-a890-0cca20e282cb.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614690-9ba4b6a7-44ad-4ac8-a43b-f7d52cc2a300.png)
-- Deploy the best model
+## Step 3: Deploy the Best Model
    #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.(enable Application Insights )
   - ![image](https://user-images.githubusercontent.com/32674614/156615159-8e43c573-ebc3-4198-ba57-71da0ed07e9a.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156615213-4d7e4252-da56-42e5-8d32-4d07f145552e.png)
@@ -60,8 +61,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156615604-7691bd5f-7747-4693-96ab-d6fa7bde0a60.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156615644-0c0a633b-2199-4325-8c73-d99cb92d8473.png)
 
-- Enable logging
-  ## Step 4: Enable Application Insights
+## Step 4: Enable Application Insights
      Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you.
      - Add following code to logs.py
 ```
@@ -81,8 +81,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156617491-a957cfd2-579d-4ad7-84a0-379a760dca03.png)
 
     
-- Swagger Documentation
- ## Step 5: Swagger Documentation
+## Step 5: Swagger Documentation
     In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
     swagger.sh will download the latest Swagger container, and it will run it on port 80. I didn't had permissions for port 80 so instead I have used port 9000
     serve.py will start a Python server on port 8000. This script needs swagger.json file which I downloaded and placed in the working directory
@@ -101,8 +100,8 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
    - ![image](https://user-images.githubusercontent.com/32674614/156668863-b9946be4-9265-4aee-a34b-9d0a76709a94.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668889-76315eb1-33e9-452d-bf2a-f7aca576a3a1.png)
    
-- Consume model endpoints
-   ### Step 6: Consume Model Endpoints
+
+## Step 6: Consume Model Endpoints
     Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to runBefore running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment.
     
 ```
@@ -206,8 +205,7 @@ data = {"data":
 ![image](https://user-images.githubusercontent.com/32674614/156672048-1af9973a-19ec-41b7-b4e1-5dc1bee8c70f.png)
 
 
-- Create and publish a pipeline
- ### Step 7: Create, Publish and Consume a Pipeline
+## Step 7: Create, Publish and Consume a Pipeline
 For this part of the project, I used Jupyter Notebook provided in the starter files. Changes made in the notebook to have the same keys, URI, dataset, cluster, and model names already created. 
 
  - ![image](https://user-images.githubusercontent.com/32674614/156672213-e676fb08-5a82-422c-9c71-812bfc320373.png)
