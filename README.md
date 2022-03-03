@@ -182,6 +182,14 @@ data = {"data":
 
 ### column data type in dataset
 ![image](https://user-images.githubusercontent.com/32674614/156670532-efce8152-0b80-4dc9-a8c5-b8b823c35684.png)
+![image](https://user-images.githubusercontent.com/32674614/156670605-a750f252-567d-48b2-98eb-aed077b96454.png)
+![image](https://user-images.githubusercontent.com/32674614/156670665-1bda5e2b-b927-4607-af59-f12731f8e8ce.png)
+![image](https://user-images.githubusercontent.com/32674614/156670691-d6219125-1655-47d4-adee-c290ffd64735.png)
+![image](https://user-images.githubusercontent.com/32674614/156670727-56a8c39d-4991-4ccc-85c8-e28d5a657fa8.png)
+![image](https://user-images.githubusercontent.com/32674614/156670782-d2168a52-7ff9-43af-b69f-c3e3f89a5a35.png)
+
+### validating JSON on [JSONLint](https://jsonlint.com/)
+![image](https://user-images.githubusercontent.com/32674614/156670845-64c01647-fad9-4e29-9e5c-72445ee04005.png)
 
 
 
