@@ -51,19 +51,16 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ![image](https://user-images.githubusercontent.com/32674614/156614610-7cb1e459-ba22-41df-b230-71a0ccd397cc.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614654-5944aa8d-bbb9-4688-a890-0cca20e282cb.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614690-9ba4b6a7-44ad-4ac8-a43b-f7d52cc2a300.png)
-  - 
-
-
-
-
-
-
-
-
-
-
-
 - Deploy the best model
+   #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
+  - ![image](https://user-images.githubusercontent.com/32674614/156615159-8e43c573-ebc3-4198-ba57-71da0ed07e9a.png)
+  - ![image](https://user-images.githubusercontent.com/32674614/156615213-4d7e4252-da56-42e5-8d32-4d07f145552e.png)
+  - ![image](https://user-images.githubusercontent.com/32674614/156615271-b2a02358-ee8f-4d44-8949-d727e0c2fc35.png)
+
+
+
+
+
 - Enable logging
 - Swagger Documentation
 - Consume model endpoints
