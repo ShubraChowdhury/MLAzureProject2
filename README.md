@@ -167,5 +167,23 @@ data = {"data":
 57,technician,married,high.school,no,no,yes,cellular,may,mon,371,1,999,1,failure,-1.8,92.89299999999999,-46.2,1.2990000000000002,5099.1,no
 55,unknown,married,unknown,unknown,yes,no,telephone,may,thu,285,2,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
  ```
+ ### Score URI and Key match with Experiment and endpoint.py
+ ![image](https://user-images.githubusercontent.com/32674614/156670161-ba0e0ed9-15a0-40b5-803c-c919e2d502fd.png)
+
+### endpoint.py errors out 
+![image](https://user-images.githubusercontent.com/32674614/156670284-e124b526-ba6f-46c6-a68b-774e7a14b457.png)
+
+### column sequence matching in endpoint.py and swager
+![image](https://user-images.githubusercontent.com/32674614/156670365-fa6454ec-042b-4468-a28f-919852acc12c.png)
+
+### column sequence in dataset
+![image](https://user-images.githubusercontent.com/32674614/156670423-fd0e1a22-27fe-4f14-a3d4-e6e4f1ce2119.png)
+![image](https://user-images.githubusercontent.com/32674614/156670453-33e355b7-6adc-4346-b6b5-423445f74c85.png)
+
+### column data type in dataset
+![image](https://user-images.githubusercontent.com/32674614/156670532-efce8152-0b80-4dc9-a8c5-b8b823c35684.png)
+
+
+
 - Create and publish a pipeline
 - Documentation
