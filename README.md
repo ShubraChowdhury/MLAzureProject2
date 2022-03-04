@@ -67,7 +67,9 @@ In this step, we deployed our trained Voting Ensemble model using Azure Containe
   - ![image](https://user-images.githubusercontent.com/32674614/156615271-b2a02358-ee8f-4d44-8949-d727e0c2fc35.png)
 #### The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.
   - ![image](https://user-images.githubusercontent.com/32674614/156615547-106bbe1a-9dfb-45c1-bc1e-53d3b053ef46.png)
+#### Model has transitioned completely and in Healthy condition
   - ![image](https://user-images.githubusercontent.com/32674614/156615604-7691bd5f-7747-4693-96ab-d6fa7bde0a60.png)
+#### Model has REST Endpoint & Swagger URI But Application Insight Not Enabled which will enabled using logs.py
   - ![image](https://user-images.githubusercontent.com/32674614/156615644-0c0a633b-2199-4325-8c73-d99cb92d8473.png)
 
 ## Step 4: Enable Application Insights
