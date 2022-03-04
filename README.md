@@ -38,6 +38,17 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ### Fig 10: Screenshot of AutoML Models with best model showing the explanation
      ![image](https://user-images.githubusercontent.com/32674614/156852852-a4bb5ce6-b2be-41a9-885e-86534f2996a1.png)
  
+  - ### Fig 11.0: Best model metrics with accuracy of 91.563%
+     ![image](https://user-images.githubusercontent.com/32674614/156853567-912aee4c-ad7c-4c67-9b3e-fc9282aaaf20.png)
+
+  - ### Fig 11.1: Best model metrics
+     ![image](https://user-images.githubusercontent.com/32674614/156853470-3c0388b4-30d1-42e1-ab73-b1af1f20bda5.png)
+
+  - ### Fig 11.2: Best model metrics
+     ![image](https://user-images.githubusercontent.com/32674614/156853518-ea50bf04-f383-4e21-82b3-666eda6aca71.png)
+
+  - ### Fig 11.3: Best model metrics
+      ![image](https://user-images.githubusercontent.com/32674614/156853437-15af37a7-dd35-44df-9d30-eef8bb93792d.png)
  
 
 ## Step 3: Deploy the Best Model
