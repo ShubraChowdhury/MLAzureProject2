@@ -18,9 +18,6 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ### Dataset used [bankmarketing_train](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
  
   - ### FIG 1 : Creating Compute Cluster to be used by Auto ML
-  - ![image](https://github.com/ShubraChowdhury/MLAzureProject2/blob/main/image/fig1.png)
-
-
       ![image](https://user-images.githubusercontent.com/32674614/156851267-f4c4b0db-92f9-46cb-b63d-c6277edadb2a.png)
   - ### Fig 2: Creation of Compute Instance to be used by Jupyter Notebook
       ![image](https://user-images.githubusercontent.com/32674614/156851459-76355088-ea17-40f3-8a0f-8c592f3be32a.png)
@@ -28,19 +25,23 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
       ![image](https://user-images.githubusercontent.com/32674614/156851582-ec7b330e-ab04-4279-91dd-c1c5e1527b23.png)
   - ### Fig 4: bankmarketing_train dataset has been registered which will be ingested by AutoML and later by Jupyter NoteBook for pipeline
       ![image](https://user-images.githubusercontent.com/32674614/156851652-0f63d89d-1871-42f5-ad50-ad35c440b00b.png)
+  - ### Fig 5: Creating AutoML experiment on the compute cluster and target column “y”
+      ![image](https://user-images.githubusercontent.com/32674614/156852406-409152ef-1a58-4d3a-aa5c-e7eddca80b98.png)
+  - ### Fig 6: This is a Classification Experiment so selecting classification in AutoML
+     ![image](https://user-images.githubusercontent.com/32674614/156852482-7bd66578-0464-4d20-93d5-431131f526c1.png)
+  - ### Fig 7: Selecting the validation type to “Auto” with no test data selected 
+     ![image](https://user-images.githubusercontent.com/32674614/156852558-24e2ced9-aef1-4f8d-8e02-207d25c21e1e.png)
+  - ### Fig 8: AutoML Experiment started from past run experience it will take around 35 minutes on the selected compute cluster
+     ![image](https://user-images.githubusercontent.com/32674614/156852621-30f38395-dc67-4d34-a131-8255b1a8368c.png)
+  - ### Fig 9: AutoML Experiment completed
+     ![image](https://user-images.githubusercontent.com/32674614/156852734-7d9b9f76-3ddb-469e-bb4b-58f2fa381a78.png)
+  - ### Fig 10: Screenshot of AutoML Models with best model showing the explanation
+     ![image](https://user-images.githubusercontent.com/32674614/156852852-a4bb5ce6-b2be-41a9-885e-86534f2996a1.png)
+  - ### Fig 10: Deploying the best model VotingEnsemble with ACI and enabling authentication
+     ![image](https://user-images.githubusercontent.com/32674614/156852936-b73fbb93-aae5-465d-9e97-bfafc6318f1d.png)
+ 
+     
 
-- ### Creating a New Automated ML run
-  - 1. Selected 'y' as the target column
-  - ![image](https://user-images.githubusercontent.com/32674614/156613542-76096ec1-d872-45e4-9c12-2ed691d39c60.png)
-  - Selecting Classification
-  - ![image](https://user-images.githubusercontent.com/32674614/156613617-07729628-c185-41f1-9625-99222e45fd28.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156613667-9fed6a73-dad3-4a55-bb77-cd1131936d00.png)
-- ### Starting AutoML run
-  - ![image](https://user-images.githubusercontent.com/32674614/156613712-d709b690-06ef-47ce-8aba-be0e993a8ed3.png)
-- ###  AutoML run complete
-  - ![image](https://user-images.githubusercontent.com/32674614/156613761-8108eec8-cb6d-48dc-90c5-bcdef7f83f0b.png)
-- ### Screenshot of Experiment complete
-  - ![image](https://user-images.githubusercontent.com/32674614/156613926-af70145d-02ba-4c86-a500-0bc6e5e4a1ed.png)
 - ### Screenshot of best model
   - ![image](https://user-images.githubusercontent.com/32674614/156614087-18a06e4c-1d2c-463c-881a-0905ee8f9768.png)
 - ### metrics of best model VotingEnsemble , classification problem with 91.351% Accuracy (Rounded 91.4%).
