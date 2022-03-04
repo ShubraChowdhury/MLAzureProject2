@@ -234,10 +234,16 @@ data = {"data":
 For this part of the project, I used Jupyter Notebook provided in the starter files. Changes made in the notebook to have the same keys, URI, dataset, cluster, and model names already created. 
 
  - ![image](https://user-images.githubusercontent.com/32674614/156672213-e676fb08-5a82-422c-9c71-812bfc320373.png)
+ - 
+#### For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a PipelineI created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK. 
  - ![image](https://user-images.githubusercontent.com/32674614/156672267-cd5540dc-38bc-43e1-b90e-ad985b18ae9b.png)
+#### pipeline running
  - ![image](https://user-images.githubusercontent.com/32674614/156672294-21ce6c6b-9499-4421-aaa9-5b8b56fefcb4.png)
+#### notebook shows pipeline completed
  - ![image](https://user-images.githubusercontent.com/32674614/156672318-567545ac-0769-48fa-889b-f28cae372746.png)
+#### automl_bank_marketing_experiment completed (pipeline run overview)
  - ![image](https://user-images.githubusercontent.com/32674614/156672343-f32f4ea4-689c-498f-a973-da8d616ac578.png)
+ #### VotingEnsemble found to be the best model
  - ![image](https://user-images.githubusercontent.com/32674614/156672362-5ab779f2-3ad4-499f-9cff-793289c64338.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672404-c556e165-a6f7-4fa6-9997-043aaaed1db5.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672421-8e4ef8ac-a7c1-4e72-a381-df948d11edb5.png)
