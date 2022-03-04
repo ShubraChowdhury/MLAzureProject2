@@ -84,13 +84,18 @@ Now that the Best Model is deployed, enable Application Insights and retrieve lo
   - ![image](https://user-images.githubusercontent.com/32674614/156616882-fddebbe7-4f0f-41d5-b96d-56738ddb9735.png)
 ### updated logs.py to enable enable_app_insights=True
   - ![image](https://user-images.githubusercontent.com/32674614/156616942-4c73f507-e920-4368-9178-ca61b11446dc.png)
+### executing logs.py
   - ![image](https://user-images.githubusercontent.com/32674614/156617033-7ef7cc9e-0075-40c1-bb3d-6a3633a002dd.png)
-  - validating credentials
+### validating credentials
   - ![image](https://user-images.githubusercontent.com/32674614/156617126-0ac3a800-7ef8-4084-a170-1da325511217.png)
+### After validating credentials logs.py execution completes
   - ![image](https://user-images.githubusercontent.com/32674614/156617216-b27c7be7-3cbe-4120-9f07-85906de3eae6.png)
+### Experiment still in Transition State
   - ![image](https://user-images.githubusercontent.com/32674614/156617320-2defd71d-1737-4a2a-bcf5-f757b32660c2.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156617383-0a1ad4a9-987d-4cdc-a42e-efd2c547492c.png)
+### Transition complete and deployment is in healthy state  
   - ![image](https://user-images.githubusercontent.com/32674614/156617445-cbc6bf1b-d82e-4848-a023-8e4f16aee8f8.png)
+### Enabled Application Insights 
   - ![image](https://user-images.githubusercontent.com/32674614/156617491-a957cfd2-579d-4ad7-84a0-379a760dca03.png)
 
     
