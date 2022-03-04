@@ -196,11 +196,12 @@ data = {"data":
 57,technician,married,high.school,no,no,yes,cellular,may,mon,371,1,999,1,failure,-1.8,92.89299999999999,-46.2,1.2990000000000002,5099.1,no
 55,unknown,married,unknown,unknown,yes,no,telephone,may,thu,285,2,999,0,nonexistent,1.1,93.994,-36.4,4.86,5191.0,no
  ```
- ### Score URI and Key match with Experiment and endpoint.py
- ![image](https://user-images.githubusercontent.com/32674614/156670161-ba0e0ed9-15a0-40b5-803c-c919e2d502fd.png)
+- ### Fig 25:   Score URI and Key match with Experiment and endpoint.py
+   ![image](https://user-images.githubusercontent.com/32674614/156856200-ad672dc1-0624-4053-bae7-a2c5159f7c3b.png)
 
-### endpoint.py errors out 
-![image](https://user-images.githubusercontent.com/32674614/156670284-e124b526-ba6f-46c6-a68b-774e7a14b457.png)
+
+- ### Fig 25:   Executing endpoint.py it generated data.json 
+  ![image](https://user-images.githubusercontent.com/32674614/156856285-20044210-680e-4b2d-be56-1ccf858f96da.png)
 
 ### column sequence matching in endpoint.py and swager
 ![image](https://user-images.githubusercontent.com/32674614/156670365-fa6454ec-042b-4468-a28f-919852acc12c.png)
