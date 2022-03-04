@@ -112,19 +112,23 @@ Then we run the swagger.sh and serve.py files to be able to interact with the sw
     
  - ### Fig 20: Executing swagger.sh
     ![image](https://user-images.githubusercontent.com/32674614/156855220-f408921a-27d8-4b58-9a0b-b2b8b838fbb8.png)
+    
  - ### Fig 20.1: swagger.sh execution is updated with latest docker URI
     ![image](https://user-images.githubusercontent.com/32674614/156855323-d2b76ceb-8ee1-459f-98c0-aaffb1e20b24.png)
+    
  - ### Fig 21: Executing   serve.py 
     ![image](https://user-images.githubusercontent.com/32674614/156855405-73b0ac45-1e77-4099-873e-ea207972e504.png)
 
+ - ### Fig 22: Swagger documentation localhost:9000
+    ![image](https://user-images.githubusercontent.com/32674614/156855534-6ca225e0-1397-4a08-9752-ab6b0b445ce0.png)
 
-###  This is the default Swagger documentation localhost:9000    
-   - ![image](https://user-images.githubusercontent.com/32674614/156668813-f151abe1-c05f-4f88-99d1-1a537e3e371a.png)
-###  Opening up experiment's swagger localhost:8000/swagger.json  
-   - ![image](https://user-images.githubusercontent.com/32674614/156668838-b4ad761e-2efa-42b2-9fc4-67820121b114.png)
-###  Output of swagger documentation localhost:8000/swagger.json   - 
-   - ![image](https://user-images.githubusercontent.com/32674614/156668863-b9946be4-9265-4aee-a34b-9d0a76709a94.png)
-   - ![image](https://user-images.githubusercontent.com/32674614/156668889-76315eb1-33e9-452d-bf2a-f7aca576a3a1.png)
+ - ### Fig 23: Swagger documentation for experiment on localhost:8000/swagger.json
+    ![image](https://user-images.githubusercontent.com/32674614/156855556-cdb0178e-e952-4af2-b6fa-8aed5a9c9cae.png)
+    
+- ### Fig 24:  Swagger response
+   ![image](https://user-images.githubusercontent.com/32674614/156855575-7c88ffc8-e03b-4ae2-810f-a9449b611b80.png)
+
+
    
 
 ## Step 6: Consume Model Endpoints
