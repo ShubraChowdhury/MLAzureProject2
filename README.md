@@ -117,7 +117,7 @@ Then we run the swagger.sh and serve.py files to be able to interact with the sw
    - ![image](https://user-images.githubusercontent.com/32674614/156668761-7910da74-bf5f-415a-8542-244cb464c9a9.png)
 ###  executing   serve.py 
    - ![image](https://user-images.githubusercontent.com/32674614/156668794-f31bc130-f93f-47a4-815f-fbbb9f0d4006.png)
-###  native swagger site localhost:9000    
+###  This is the default Swagger documentation localhost:9000    
    - ![image](https://user-images.githubusercontent.com/32674614/156668813-f151abe1-c05f-4f88-99d1-1a537e3e371a.png)
 ###  Opening up experiment's swagger localhost:8000/swagger.json  
    - ![image](https://user-images.githubusercontent.com/32674614/156668838-b4ad761e-2efa-42b2-9fc4-67820121b114.png)
