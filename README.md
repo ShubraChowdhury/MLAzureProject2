@@ -36,7 +36,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
 - ### Creation of Compute Instance
   - ![ComputeInstance](https://user-images.githubusercontent.com/32674614/156613199-b6091322-bac0-4524-b7bf-a038631d3583.png)
 - ### Creating a New Automated ML run
-  - 1. 
+  - 1. Selected 'y' as the target column
   - ![image](https://user-images.githubusercontent.com/32674614/156613542-76096ec1-d872-45e4-9c12-2ed691d39c60.png)
   - Selecting Classification
   - ![image](https://user-images.githubusercontent.com/32674614/156613617-07729628-c185-41f1-9625-99222e45fd28.png)
