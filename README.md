@@ -80,7 +80,9 @@ Now that the Best Model is deployed, enable Application Insights and retrieve lo
      service = Webservice(name=name, workspace=ws)
      service.update(enable_app_insights=True)
 ```
+### Checking if az is installed
   - ![image](https://user-images.githubusercontent.com/32674614/156616882-fddebbe7-4f0f-41d5-b96d-56738ddb9735.png)
+### updated logs.py to enable enable_app_insights=True
   - ![image](https://user-images.githubusercontent.com/32674614/156616942-4c73f507-e920-4368-9178-ca61b11446dc.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156617033-7ef7cc9e-0075-40c1-bb3d-6a3633a002dd.png)
   - validating credentials
