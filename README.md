@@ -73,7 +73,7 @@ In this step, we deployed our trained Voting Ensemble model using Azure Containe
   - ![image](https://user-images.githubusercontent.com/32674614/156615644-0c0a633b-2199-4325-8c73-d99cb92d8473.png)
 
 ## Step 4: Enable Application Insights
-     Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you.
+Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you. (In this project I achieved it using Azure Python SDK.)
      - Add following code to logs.py
 ```
      name = "automlvotingensemble"
