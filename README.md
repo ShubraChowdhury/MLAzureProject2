@@ -100,27 +100,34 @@ Now that the Best Model is deployed, enable Application Insights and retrieve lo
 
     
 ## Step 5: Swagger Documentation
-    In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
-    swagger.sh will download the latest Swagger container, and it will run it on port 80. I didn't had permissions for port 80 so instead I have used port 9000
-    serve.py will start a Python server on port 8000. This script needs swagger.json file which I downloaded and placed in the working directory
-    
+ In this step, I have consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models.
+ Downloaded swagger.json and placed in the working directory.
+ Port for swagger.sh changed from port 80 . I didn't had permissions for port 80 so instead I have used port 9000.
+ serve.py will start a Python server on port 8000. 
+Then we run the swagger.sh and serve.py files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.    
     
 ```
     docker run -p 9000:8080 swaggerapi/swagger-ui
 ```
-    
+### swagger.json placed in working directory     
    - ![image](https://user-images.githubusercontent.com/32674614/156668636-5479aacb-e63a-488f-8362-49ec1a001ffb.png)
+### Executing swagger.sh   
    - ![image](https://user-images.githubusercontent.com/32674614/156668718-d510a548-c9b5-4953-897a-2c70ec04a71a.png)
+###  swagger.sh   ready
    - ![image](https://user-images.githubusercontent.com/32674614/156668761-7910da74-bf5f-415a-8542-244cb464c9a9.png)
+###  executing   serve.py 
    - ![image](https://user-images.githubusercontent.com/32674614/156668794-f31bc130-f93f-47a4-815f-fbbb9f0d4006.png)
+###  native swagger site localhost:9000    
    - ![image](https://user-images.githubusercontent.com/32674614/156668813-f151abe1-c05f-4f88-99d1-1a537e3e371a.png)
+###  Opening up experiment's swagger localhost:8000/swagger.json  
    - ![image](https://user-images.githubusercontent.com/32674614/156668838-b4ad761e-2efa-42b2-9fc4-67820121b114.png)
+###  Output of swagger documentation localhost:8000/swagger.json   - 
    - ![image](https://user-images.githubusercontent.com/32674614/156668863-b9946be4-9265-4aee-a34b-9d0a76709a94.png)
    - ![image](https://user-images.githubusercontent.com/32674614/156668889-76315eb1-33e9-452d-bf2a-f7aca576a3a1.png)
    
 
 ## Step 6: Consume Model Endpoints
-    Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to runBefore running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment.
+Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to runBefore running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment.
     
 ```
 scoring_uri = 'http://e70d6ee6-73d9-43fa-aeed-f0c281d6a214.southcentralus.azurecontainer.io/score'
