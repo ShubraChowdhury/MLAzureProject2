@@ -107,14 +107,17 @@ Then we run the swagger.sh and serve.py files to be able to interact with the sw
 ```
     docker run -p 9000:8080 swaggerapi/swagger-ui
 ```
-### swagger.json placed in working directory     
-   - ![image](https://user-images.githubusercontent.com/32674614/156668636-5479aacb-e63a-488f-8362-49ec1a001ffb.png)
-### Executing swagger.sh   
-   - ![image](https://user-images.githubusercontent.com/32674614/156668718-d510a548-c9b5-4953-897a-2c70ec04a71a.png)
-###  swagger.sh   ready
-   - ![image](https://user-images.githubusercontent.com/32674614/156668761-7910da74-bf5f-415a-8542-244cb464c9a9.png)
-###  executing   serve.py 
-   - ![image](https://user-images.githubusercontent.com/32674614/156668794-f31bc130-f93f-47a4-815f-fbbb9f0d4006.png)
+ - ### Fig 19: Downloading swagger.json and placing it in the working directory
+    ![image](https://user-images.githubusercontent.com/32674614/156855116-468245d3-d5e6-41ed-9d14-bc58c37e5e4f.png)
+    
+ - ### Fig 20: Executing swagger.sh
+    ![image](https://user-images.githubusercontent.com/32674614/156855220-f408921a-27d8-4b58-9a0b-b2b8b838fbb8.png)
+ - ### Fig 20.1: swagger.sh execution is updated with latest docker URI
+    ![image](https://user-images.githubusercontent.com/32674614/156855323-d2b76ceb-8ee1-459f-98c0-aaffb1e20b24.png)
+ - ### Fig 21: Executing   serve.py 
+    ![image](https://user-images.githubusercontent.com/32674614/156855405-73b0ac45-1e77-4099-873e-ea207972e504.png)
+
+
 ###  This is the default Swagger documentation localhost:9000    
    - ![image](https://user-images.githubusercontent.com/32674614/156668813-f151abe1-c05f-4f88-99d1-1a537e3e371a.png)
 ###  Opening up experiment's swagger localhost:8000/swagger.json  
