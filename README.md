@@ -57,8 +57,10 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
 In this step, we deployed our trained Voting Ensemble model using Azure Container Instance (ACI), with authentication enabled.
   - ### Fig 12: Deploying the best model VotingEnsemble with ACI and enabling authentication
      ![image](https://user-images.githubusercontent.com/32674614/156852936-b73fbb93-aae5-465d-9e97-bfafc6318f1d.png)
+     
   - ### Fig 13:  VotingEnsemble model deployment in progress
      ![image](https://user-images.githubusercontent.com/32674614/156853862-67203f2a-f87a-4622-9b67-de819f352195.png)
+     
   - ### Fig 14:  VotingEnsemble model deployment complete   
      ![image](https://user-images.githubusercontent.com/32674614/156853934-3e97357e-3fda-4262-aa67-0fdb08db1d01.png)
 
@@ -67,34 +69,32 @@ In this step, we deployed our trained Voting Ensemble model using Azure Containe
 ## Step 4: Enable Application Insights
 Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you. (In this project I achieved it using Azure Python SDK.)
 
-  - ### Fig 15:The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.Model has REST Endpoint & Swagger URI But Application Insight Not Enabled which will enabled using logs.py
+  - ### Fig 15: The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.Model has REST Endpoint & Swagger URI But Application Insight Not Enabled which will enabled using logs.py
      ![image](https://user-images.githubusercontent.com/32674614/156854208-887838ed-af71-4118-aad7-fa921b4d6265.png)
-  - ### Fig 15.1:Application Insight Not Enabled
+     
+  - ### Fig 15.1: Application Insight Not Enabled
      ![image](https://user-images.githubusercontent.com/32674614/156854277-3467e649-c072-48be-8cfc-d58a8affe05e.png)
+     
+  - ### Fig 16:  Checking if az and ab  is available which will be used later by scripts
+     ![image](https://user-images.githubusercontent.com/32674614/156854560-3f4b63b5-dbdd-47b1-90c1-a210969b5af0.png)
+     
+  - ### Fig 17: Confirming all the required files are available including the configuration file config.json
+     ![image](https://user-images.githubusercontent.com/32674614/156854624-e8643875-dc42-48f6-9b40-aa5bc98010f8.png)
 
-     - Add following code to logs.py
+  - Add following code to logs.py
 ```
      name = "automlvotingensemble"
      service = Webservice(name=name, workspace=ws)
      service.update(enable_app_insights=True)
 ```
-### Checking if az is installed
-  - ![image](https://user-images.githubusercontent.com/32674614/156616882-fddebbe7-4f0f-41d5-b96d-56738ddb9735.png)
-### updated logs.py to enable enable_app_insights=True
-  - ![image](https://user-images.githubusercontent.com/32674614/156616942-4c73f507-e920-4368-9178-ca61b11446dc.png)
-### executing logs.py
-  - ![image](https://user-images.githubusercontent.com/32674614/156617033-7ef7cc9e-0075-40c1-bb3d-6a3633a002dd.png)
-### validating credentials
-  - ![image](https://user-images.githubusercontent.com/32674614/156617126-0ac3a800-7ef8-4084-a170-1da325511217.png)
-### After validating credentials logs.py execution completes
-  - ![image](https://user-images.githubusercontent.com/32674614/156617216-b27c7be7-3cbe-4120-9f07-85906de3eae6.png)
-### Experiment still in Transition State
-  - ![image](https://user-images.githubusercontent.com/32674614/156617320-2defd71d-1737-4a2a-bcf5-f757b32660c2.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156617383-0a1ad4a9-987d-4cdc-a42e-efd2c547492c.png)
-### Transition complete and deployment is in healthy state  
-  - ![image](https://user-images.githubusercontent.com/32674614/156617445-cbc6bf1b-d82e-4848-a023-8e4f16aee8f8.png)
-### Enabled Application Insights 
-  - ![image](https://user-images.githubusercontent.com/32674614/156617491-a957cfd2-579d-4ad7-84a0-379a760dca03.png)
+ - ### Fig 18: Running logs.py to enable “Application Insights”
+    ![image](https://user-images.githubusercontent.com/32674614/156854816-17f01800-8a91-4f5e-ab54-1fb501622c2f.png)
+    
+ - ### Fig 19: Application Insight Enabled
+    ![image](https://user-images.githubusercontent.com/32674614/156854871-5fdf8be1-ae07-48a9-9af8-4919c71debf7.png)
+
+
+
 
     
 ## Step 5: Swagger Documentation
