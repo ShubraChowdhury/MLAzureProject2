@@ -251,6 +251,7 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
  - ![image](https://user-images.githubusercontent.com/32674614/156672421-8e4ef8ac-a7c1-4e72-a381-df948d11edb5.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672446-b98a6910-fbc0-4a1f-bc6a-cb627ea87c36.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672472-90d57039-3c6c-409e-8a5a-76e9bdc43426.png)
+ #### Notebook Screen Details   
  - ![image](https://user-images.githubusercontent.com/32674614/156672491-2337ef08-30c1-4942-9c8f-3bbdcf396061.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672512-5bf0f93e-fef7-4a55-8391-7d04e20125fc.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672541-43821ee1-cd28-4cf9-a8d8-6989fcef73e8.png)
