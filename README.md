@@ -15,11 +15,11 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
 ## Step 2: Automated ML Experiment
  In this step, I have created an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
  
-  - ### Dataset used
-  - [bankmarketing_train](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
+  - ### Dataset used [bankmarketing_train](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
   - ### Steps For Creating Dataset in MLOps
-  - 1.
-  ![image](https://user-images.githubusercontent.com/32674614/156611711-ba85d269-409e-43df-8b26-87ce068de757.png)
+  - ### FIG 1 : Creating Compute Cluster to be used by Auto ML
+      ![image](https://user-images.githubusercontent.com/32674614/156851267-f4c4b0db-92f9-46cb-b63d-c6277edadb2a.png)
+
 ` - 2.
  ![image](https://user-images.githubusercontent.com/32674614/156611814-f70a0e94-38a6-4f08-ae57-3ecd96c3dfda.png)
  - 3.
