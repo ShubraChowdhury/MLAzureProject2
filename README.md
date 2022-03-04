@@ -16,25 +16,16 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
  In this step, I have created an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
  
   - ### Dataset used [bankmarketing_train](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
-  - ### Steps For Creating Dataset in MLOps
+ 
   - ### FIG 1 : Creating Compute Cluster to be used by Auto ML
       ![image](https://user-images.githubusercontent.com/32674614/156851267-f4c4b0db-92f9-46cb-b63d-c6277edadb2a.png)
+  - ### Fig 2: Creation of Compute Instance to be used by Jupyter Notebook
+      ![image](https://user-images.githubusercontent.com/32674614/156851459-76355088-ea17-40f3-8a0f-8c592f3be32a.png)
+  - ### Fig 3: Importing bankmarketing_train.csv data set , below it shows the schema
+      ![image](https://user-images.githubusercontent.com/32674614/156851582-ec7b330e-ab04-4279-91dd-c1c5e1527b23.png)
+  - ### Fig 4: bankmarketing_train dataset has been registered which will be ingested by AutoML and later by Jupyter NoteBook for pipeline
+      ![image](https://user-images.githubusercontent.com/32674614/156851652-0f63d89d-1871-42f5-ad50-ad35c440b00b.png)
 
-` - 2.
- ![image](https://user-images.githubusercontent.com/32674614/156611814-f70a0e94-38a6-4f08-ae57-3ecd96c3dfda.png)
- - 3.
- ![image](https://user-images.githubusercontent.com/32674614/156611944-734510d2-9300-4284-9914-6d9ff3c1883b.png)
- - 4.
- ![image](https://user-images.githubusercontent.com/32674614/156612041-c468f206-e973-4f27-abca-20d8b97e6fd2.png)
- ![image](https://user-images.githubusercontent.com/32674614/156612108-164d9a3a-8234-4f5a-b006-cfedd913cba6.png)
- ![image](https://user-images.githubusercontent.com/32674614/156612162-89f2888b-0433-4718-a195-4addf2b75e0e.png)
- - 5.
- ![image](https://user-images.githubusercontent.com/32674614/156612243-f391ce6d-08af-4f31-9d19-3d147faca0a2.png)
-
-- ### Creation of Compute Cluster
-   - ![ComputeCluster](https://user-images.githubusercontent.com/32674614/156613032-8d31be24-feb6-4354-98b3-bcb30471b70d.png)
-- ### Creation of Compute Instance
-  - ![ComputeInstance](https://user-images.githubusercontent.com/32674614/156613199-b6091322-bac0-4524-b7bf-a038631d3583.png)
 - ### Creating a New Automated ML run
   - 1. Selected 'y' as the target column
   - ![image](https://user-images.githubusercontent.com/32674614/156613542-76096ec1-d872-45e4-9c12-2ed691d39c60.png)
