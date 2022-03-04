@@ -18,7 +18,9 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - ### Dataset used [bankmarketing_train](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
  
   - ### FIG 1 : Creating Compute Cluster to be used by Auto ML
-  - https://github.com/ShubraChowdhury/MLAzureProject2/blob/main/image/fig1.png
+  - ![image](https://github.com/ShubraChowdhury/MLAzureProject2/blob/main/image/fig1.png)
+
+
       ![image](https://user-images.githubusercontent.com/32674614/156851267-f4c4b0db-92f9-46cb-b63d-c6277edadb2a.png)
   - ### Fig 2: Creation of Compute Instance to be used by Jupyter Notebook
       ![image](https://user-images.githubusercontent.com/32674614/156851459-76355088-ea17-40f3-8a0f-8c592f3be32a.png)
