@@ -132,11 +132,11 @@ Then we run the swagger.sh and serve.py files to be able to interact with the sw
    
 
 ## Step 6: Consume Model Endpoints
-Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to runBefore running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment.
+Once the model is deployed, i used the endpoint.py script provided to interact with the trained model. In this step, you need to run endpoint.py, before running the the script, I modifiedying both the scoring_uri and the key to match the key for your service and the URI that was generated after deployment. After running the endpoint.py a file named data.json will be generated which will be later used by benchmark.json
     
 ```
-scoring_uri = 'http://e70d6ee6-73d9-43fa-aeed-f0c281d6a214.southcentralus.azurecontainer.io/score'
-key ='sVpcS6jiegm8sEGvdXyXT4paPpdzivxK'
+scoring_uri = 'http://621da048-0c8c-4b00-9d43-f57f64a53fc5.southcentralus.azurecontainer.io/score'
+key ='Botc7rXPMA7Ye0iv1DCUthr6rNkOWpl7'
 ```
 
 ```
