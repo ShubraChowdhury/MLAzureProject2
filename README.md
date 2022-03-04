@@ -41,13 +41,15 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
   - Selecting Classification
   - ![image](https://user-images.githubusercontent.com/32674614/156613617-07729628-c185-41f1-9625-99222e45fd28.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156613667-9fed6a73-dad3-4a55-bb77-cd1131936d00.png)
+- ### Starting AutoML run
   - ![image](https://user-images.githubusercontent.com/32674614/156613712-d709b690-06ef-47ce-8aba-be0e993a8ed3.png)
+- ###  AutoML run complete
   - ![image](https://user-images.githubusercontent.com/32674614/156613761-8108eec8-cb6d-48dc-90c5-bcdef7f83f0b.png)
 - ### Screenshot of Experiment complete
   - ![image](https://user-images.githubusercontent.com/32674614/156613926-af70145d-02ba-4c86-a500-0bc6e5e4a1ed.png)
 - ### Screenshot of best model
   - ![image](https://user-images.githubusercontent.com/32674614/156614087-18a06e4c-1d2c-463c-881a-0905ee8f9768.png)
-- ### metrics of best model VotingEnsemble
+- ### metrics of best model VotingEnsemble , classification problem with 91.351% Accuracy (91.4%).
   - ![image](https://user-images.githubusercontent.com/32674614/156614333-31292657-c0b8-421d-bc86-d0deba3cde91.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614492-f2d89e6d-269c-47b2-bb01-d9cfda0b4948.png)
   - ![image](https://user-images.githubusercontent.com/32674614/156614526-349fde6c-f4d3-4f72-bf18-33f785e72cc1.png)
