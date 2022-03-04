@@ -35,7 +35,7 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
      ![image](https://user-images.githubusercontent.com/32674614/156852621-30f38395-dc67-4d34-a131-8255b1a8368c.png)
   - ### Fig 9: AutoML Experiment completed
      ![image](https://user-images.githubusercontent.com/32674614/156852734-7d9b9f76-3ddb-469e-bb4b-58f2fa381a78.png)
-  - ### Fig 10: Screenshot of AutoML Models with best model showing the explanation
+  - ### Fig 10: Screenshot of AutoML Models (VotingEnsemble) with best model showing the explanation
      ![image](https://user-images.githubusercontent.com/32674614/156852852-a4bb5ce6-b2be-41a9-885e-86534f2996a1.png)
  
   - ### Fig 11.0: Best model metrics with accuracy of 91.563%
@@ -52,23 +52,26 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
  
 
 ## Step 3: Deploy the Best Model
-   #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
-   #### This can be easily done in the Azure Machine Learning Studio, which provides us with an URL to send our test data.
+   #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.This can be easily done in the Azure Machine Learning Studio, which provides us with an URL to send our test data.
 
 In this step, we deployed our trained Voting Ensemble model using Azure Container Instance (ACI), with authentication enabled.
-  - ### Fig 10: Deploying the best model VotingEnsemble with ACI and enabling authentication
+  - ### Fig 12: Deploying the best model VotingEnsemble with ACI and enabling authentication
      ![image](https://user-images.githubusercontent.com/32674614/156852936-b73fbb93-aae5-465d-9e97-bfafc6318f1d.png)
-     
-     
-#### The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.
-  - ![image](https://user-images.githubusercontent.com/32674614/156615547-106bbe1a-9dfb-45c1-bc1e-53d3b053ef46.png)
-#### Model has transitioned completely and in Healthy condition
-  - ![image](https://user-images.githubusercontent.com/32674614/156615604-7691bd5f-7747-4693-96ab-d6fa7bde0a60.png)
-#### Model has REST Endpoint & Swagger URI But Application Insight Not Enabled which will enabled using logs.py
-  - ![image](https://user-images.githubusercontent.com/32674614/156615644-0c0a633b-2199-4325-8c73-d99cb92d8473.png)
+  - ### Fig 13:  VotingEnsemble model deployment in progress
+     ![image](https://user-images.githubusercontent.com/32674614/156853862-67203f2a-f87a-4622-9b67-de819f352195.png)
+  - ### Fig 14:  VotingEnsemble model deployment complete   
+     ![image](https://user-images.githubusercontent.com/32674614/156853934-3e97357e-3fda-4262-aa67-0fdb08db1d01.png)
+
+
 
 ## Step 4: Enable Application Insights
 Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able   to run code that will enable it for you. (In this project I achieved it using Azure Python SDK.)
+
+  - ### Fig 15:The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.Model has REST Endpoint & Swagger URI But Application Insight Not Enabled which will enabled using logs.py
+     ![image](https://user-images.githubusercontent.com/32674614/156854208-887838ed-af71-4118-aad7-fa921b4d6265.png)
+  - ### Fig 15.1:Application Insight Not Enabled
+     ![image](https://user-images.githubusercontent.com/32674614/156854277-3467e649-c072-48be-8cfc-d58a8affe05e.png)
+
      - Add following code to logs.py
 ```
      name = "automlvotingensemble"
