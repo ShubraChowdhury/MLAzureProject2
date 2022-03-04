@@ -271,3 +271,19 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
  - ![image](https://user-images.githubusercontent.com/32674614/156672753-9542a89a-e292-46ad-a6f6-655324b5232a.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672773-2cf9ade1-0840-47f0-9fec-f0544aa183e9.png)
  
+## Future Improvements
+![image](https://user-images.githubusercontent.com/32674614/156679005-21c713c1-183c-4fd8-ab9b-887f73418193.png)
+- AutoML generated Class Balancing issue , this should be considered for future improvement.
+- In order to get over the above mentioned alert multiple other techniques may be used such as resampling training data, Adaptive Synthetic,Synthetic Minority Over-sampling Technique SMOTE etc.
+- Model is evaluated by its accuracy to predict. However, this is not appropriate when dealing with the imbalanced dataset , prtedicting F1 , Recall , precision etc may be misleading
+- SMOTE is an Oversampling technique that allows us to generate synthetic samples for minority categories and this can help to overcome Class Imbalance.
+## References:
+- how-to-configure-auto-train
+[how-to-configure-auto-train](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)
+- how-to-configure-auto-train
+[how-to-configure-auto-train](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train#configure-your-experiment-settings)
+- Udacity lessons
+[Preventing overfitting](https://docs.microsoft.com/en-us/azure/machine-learning/concept-manage-ml-pitfalls)
+[data guardrails](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features#supported-data-guardrails)
+
+
