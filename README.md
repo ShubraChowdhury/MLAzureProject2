@@ -251,16 +251,22 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
  - ![image](https://user-images.githubusercontent.com/32674614/156672421-8e4ef8ac-a7c1-4e72-a381-df948d11edb5.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672446-b98a6910-fbc0-4a1f-bc6a-cb627ea87c36.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672472-90d57039-3c6c-409e-8a5a-76e9bdc43426.png)
- #### Notebook Screen Details   
+#### Notebook Screen Details   
  - ![image](https://user-images.githubusercontent.com/32674614/156672491-2337ef08-30c1-4942-9c8f-3bbdcf396061.png)
+#### Notebook Smetrics output 
  - ![image](https://user-images.githubusercontent.com/32674614/156672512-5bf0f93e-fef7-4a55-8391-7d04e20125fc.png)
+#### Best model fetch in Notebook 
  - ![image](https://user-images.githubusercontent.com/32674614/156672541-43821ee1-cd28-4cf9-a8d8-6989fcef73e8.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672577-66d2a88c-0dd2-43d8-ab08-9cd41ba6ec11.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672595-9c120d38-542f-4790-b345-789895fefba2.png)
+#### Notebook confusion matrix 
  - ![image](https://user-images.githubusercontent.com/32674614/156672627-04ae6565-1307-4e4c-906a-4ba5383c6b25.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672657-4f875f13-1e42-44d8-b284-254601f62877.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672678-0b83c1c8-b641-4656-86ef-d64b37e9df1e.png)
+#### Pipelines 
  - ![image](https://user-images.githubusercontent.com/32674614/156672699-60b00adf-9e52-40e1-8819-a1586e6d7016.png)
+
+#### Additional screenshots 
  - ![image](https://user-images.githubusercontent.com/32674614/156672723-7a969a1c-bbe4-4fcc-8e18-96a8b01d9658.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672753-9542a89a-e292-46ad-a6f6-655324b5232a.png)
  - ![image](https://user-images.githubusercontent.com/32674614/156672773-2cf9ade1-0840-47f0-9fec-f0544aa183e9.png)
