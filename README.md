@@ -37,29 +37,18 @@ I have usedthe lab Udacity provided and thus I have skipped this step since I am
      ![image](https://user-images.githubusercontent.com/32674614/156852734-7d9b9f76-3ddb-469e-bb4b-58f2fa381a78.png)
   - ### Fig 10: Screenshot of AutoML Models with best model showing the explanation
      ![image](https://user-images.githubusercontent.com/32674614/156852852-a4bb5ce6-b2be-41a9-885e-86534f2996a1.png)
-  - ### Fig 10: Deploying the best model VotingEnsemble with ACI and enabling authentication
-     ![image](https://user-images.githubusercontent.com/32674614/156852936-b73fbb93-aae5-465d-9e97-bfafc6318f1d.png)
  
-     
+ 
 
-- ### Screenshot of best model
-  - ![image](https://user-images.githubusercontent.com/32674614/156614087-18a06e4c-1d2c-463c-881a-0905ee8f9768.png)
-- ### metrics of best model VotingEnsemble , classification problem with 91.351% Accuracy (Rounded 91.4%).
-  - ![image](https://user-images.githubusercontent.com/32674614/156614333-31292657-c0b8-421d-bc86-d0deba3cde91.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614492-f2d89e6d-269c-47b2-bb01-d9cfda0b4948.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614526-349fde6c-f4d3-4f72-bf18-33f785e72cc1.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614566-83425c57-dd7b-4968-8850-1c4143263e51.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614610-7cb1e459-ba22-41df-b230-71a0ccd397cc.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614654-5944aa8d-bbb9-4688-a890-0cca20e282cb.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156614690-9ba4b6a7-44ad-4ac8-a43b-f7d52cc2a300.png)
 ## Step 3: Deploy the Best Model
    #### Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
    #### This can be easily done in the Azure Machine Learning Studio, which provides us with an URL to send our test data.
 
 In this step, we deployed our trained Voting Ensemble model using Azure Container Instance (ACI), with authentication enabled.
-  - ![image](https://user-images.githubusercontent.com/32674614/156615159-8e43c573-ebc3-4198-ba57-71da0ed07e9a.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156615213-4d7e4252-da56-42e5-8d32-4d07f145552e.png)
-  - ![image](https://user-images.githubusercontent.com/32674614/156615271-b2a02358-ee8f-4d44-8949-d727e0c2fc35.png)
+  - ### Fig 10: Deploying the best model VotingEnsemble with ACI and enabling authentication
+     ![image](https://user-images.githubusercontent.com/32674614/156852936-b73fbb93-aae5-465d-9e97-bfafc6318f1d.png)
+     
+     
 #### The model is successfully deployed, and we can access the model endpoint in the Endpoints section of Azure ML Studio.
   - ![image](https://user-images.githubusercontent.com/32674614/156615547-106bbe1a-9dfb-45c1-bc1e-53d3b053ef46.png)
 #### Model has transitioned completely and in Healthy condition
