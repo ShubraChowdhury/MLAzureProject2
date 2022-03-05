@@ -224,6 +224,17 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
  - ![image](https://user-images.githubusercontent.com/32674614/156672213-e676fb08-5a82-422c-9c71-812bfc320373.png)
  - 
 #### For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a PipelineI created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK. 
+
+- ### Fig 30:  First pipeline running 
+   ![image](https://user-images.githubusercontent.com/32674614/156859859-a57e43ce-aefe-4b89-8611-87c795262e68.png)
+
+- ### Fig 31:  Pipeline running with and without SDK complete
+   ![image](https://user-images.githubusercontent.com/32674614/156859906-89a2044b-8999-4716-b94b-af33f523f4a2.png)
+
+- ### Fig  28: Published Pipeline Endpoint “Bankmarketing Train” in active status
+   ![image](https://user-images.githubusercontent.com/32674614/156859994-09a441c4-f568-4917-bfcd-b7c319a50038.png)
+
+
  - ![image](https://user-images.githubusercontent.com/32674614/156672267-cd5540dc-38bc-43e1-b90e-ad985b18ae9b.png)
 #### pipeline running
  - ![image](https://user-images.githubusercontent.com/32674614/156672294-21ce6c6b-9499-4421-aaa9-5b8b56fefcb4.png)
