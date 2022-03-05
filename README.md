@@ -261,7 +261,7 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
 ![image](https://user-images.githubusercontent.com/32674614/156860724-9a54f8a7-57f1-4338-b4e5-ed0c76c820e8.png)
 
 #
-## [Screen Recording](https://www.youtube.com/watch?v=sPJjG5x-OAg)
+## [Screen Recording](https://youtu.be/ZVOJn034_ho)
 #
 ## Future Improvements
 ![image](https://user-images.githubusercontent.com/32674614/156679005-21c713c1-183c-4fd8-ab9b-887f73418193.png)
@@ -270,9 +270,7 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
 - Model is evaluated by its accuracy to predict. However, this is not appropriate when dealing with the imbalanced dataset , prtedicting F1 , Recall , precision etc may be misleading
 - SMOTE is an Oversampling technique that allows us to generate synthetic samples for minority categories and this can help to overcome Class Imbalance.
 ## References:
-- how-to-configure-auto-train
 - [how-to-configure-auto-train](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)
-- how-to-configure-auto-train
 - [how-to-configure-auto-train](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train#configure-your-experiment-settings)
 - Udacity lessons
 - [Preventing overfitting](https://docs.microsoft.com/en-us/azure/machine-learning/concept-manage-ml-pitfalls)
