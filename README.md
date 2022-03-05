@@ -240,11 +240,19 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
 - ### Fig  34: Experiment with all runs
    ![image](https://user-images.githubusercontent.com/32674614/156860289-a36183de-2901-419c-aecc-ff1d8db8db6d.png)
    
-- ### Fig  34: Experiment  section showing the  status of the pipeline   
+- ### Fig  35: Experiment  section showing the  status of the pipeline   
    ![image](https://user-images.githubusercontent.com/32674614/156860346-5265309f-af7e-480f-9387-559dd7c43f09.png)
+   
+- ### Fig  36: pipeline-rest-endpoint run overview 
+   ![image](https://user-images.githubusercontent.com/32674614/156860424-6ef0e283-3d2f-49dc-a776-192a556d95a4.png)
 
+- ### Fig  38.0: pipeline run screen shots jupyter notebook
+   ![image](https://user-images.githubusercontent.com/32674614/156860523-c2d9c808-1168-4a26-aeea-1f4dc05d64ae.png)
+- ### Fig  38.1: pipeline run screen shots jupyter notebook
+   ![image](https://user-images.githubusercontent.com/32674614/156860533-4797a456-12b9-485d-9feb-aabde73f12de.png)
 
-
+ 
+#
  - ![image](https://user-images.githubusercontent.com/32674614/156672267-cd5540dc-38bc-43e1-b90e-ad985b18ae9b.png)
 #### pipeline running
  - ![image](https://user-images.githubusercontent.com/32674614/156672294-21ce6c6b-9499-4421-aaa9-5b8b56fefcb4.png)
