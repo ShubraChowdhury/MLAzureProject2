@@ -232,7 +232,8 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
    ![image](https://user-images.githubusercontent.com/32674614/156859906-89a2044b-8999-4716-b94b-af33f523f4a2.png)
 
 - ### Fig  28: Published Pipeline Endpoint “Bankmarketing Train” in active status
-   ![image](https://user-images.githubusercontent.com/32674614/156859994-09a441c4-f568-4917-bfcd-b7c319a50038.png)
+   ![image](https://user-images.githubusercontent.com/32674614/156860154-341c5192-e7b7-4db9-af8c-1cf16106154b.png)
+
 
 
  - ![image](https://user-images.githubusercontent.com/32674614/156672267-cd5540dc-38bc-43e1-b90e-ad985b18ae9b.png)
