@@ -200,25 +200,16 @@ data = {"data":
    ![image](https://user-images.githubusercontent.com/32674614/156856200-ad672dc1-0624-4053-bae7-a2c5159f7c3b.png)
 
 
-- ### Fig 25:   Executing endpoint.py it generated data.json 
+- ### Fig 26:   Executing endpoint.py it generated data.json 
   ![image](https://user-images.githubusercontent.com/32674614/156856285-20044210-680e-4b2d-be56-1ccf858f96da.png)
 
-### column sequence matching in endpoint.py and swager
-![image](https://user-images.githubusercontent.com/32674614/156670365-fa6454ec-042b-4468-a28f-919852acc12c.png)
+- ### Fig 27:  column sequence matching in endpoint.py and swager to check if json class error is because of wrong column sequence
+   ![image](https://user-images.githubusercontent.com/32674614/156859201-83ad314d-711e-49ab-936f-0f14e468d220.png)
 
-### column sequence in dataset
-![image](https://user-images.githubusercontent.com/32674614/156670423-fd0e1a22-27fe-4f14-a3d4-e6e4f1ce2119.png)
-![image](https://user-images.githubusercontent.com/32674614/156670453-33e355b7-6adc-4346-b6b5-423445f74c85.png)
 
-### column data type in dataset
-![image](https://user-images.githubusercontent.com/32674614/156670532-efce8152-0b80-4dc9-a8c5-b8b823c35684.png)
-![image](https://user-images.githubusercontent.com/32674614/156670605-a750f252-567d-48b2-98eb-aed077b96454.png)
-![image](https://user-images.githubusercontent.com/32674614/156670665-1bda5e2b-b927-4607-af59-f12731f8e8ce.png)
-![image](https://user-images.githubusercontent.com/32674614/156670691-d6219125-1655-47d4-adee-c290ffd64735.png)
-![image](https://user-images.githubusercontent.com/32674614/156670727-56a8c39d-4991-4ccc-85c8-e28d5a657fa8.png)
-![image](https://user-images.githubusercontent.com/32674614/156670782-d2168a52-7ff9-43af-b69f-c3e3f89a5a35.png)
+- ### Fig 28:   validating JSON on [JSONLint](https://jsonlint.com/)
+![image](https://user-images.githubusercontent.com/32674614/156859296-0a861128-c821-4af7-8ecf-86aa850b12fc.png)
 
-### validating JSON on [JSONLint](https://jsonlint.com/)
 ![image](https://user-images.githubusercontent.com/32674614/156670845-64c01647-fad9-4e29-9e5c-72445ee04005.png)
 
 ### testing same JSON data in experiment (I get correct result)
