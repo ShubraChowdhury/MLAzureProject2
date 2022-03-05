@@ -231,8 +231,17 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
 - ### Fig 31:  Pipeline running with and without SDK complete
    ![image](https://user-images.githubusercontent.com/32674614/156859906-89a2044b-8999-4716-b94b-af33f523f4a2.png)
 
-- ### Fig  28: Published Pipeline Endpoint “Bankmarketing Train” in active status
+- ### Fig  32: Published Pipeline Endpoint “Bankmarketing Train” in active status
    ![image](https://user-images.githubusercontent.com/32674614/156860154-341c5192-e7b7-4db9-af8c-1cf16106154b.png)
+
+- ### Fig  33: Experiment with pipeline-rest-endpoint
+   ![image](https://user-images.githubusercontent.com/32674614/156860250-61730dd9-0564-42d6-bd73-b47bbeef478a.png)
+
+- ### Fig  34: Experiment with all runs
+   ![image](https://user-images.githubusercontent.com/32674614/156860289-a36183de-2901-419c-aecc-ff1d8db8db6d.png)
+   
+- ### Fig  34: Experiment  section showing the  status of the pipeline   
+   ![image](https://user-images.githubusercontent.com/32674614/156860346-5265309f-af7e-480f-9387-559dd7c43f09.png)
 
 
 
