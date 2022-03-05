@@ -210,22 +210,13 @@ data = {"data":
 - ### Fig 28:   validating JSON on [JSONLint](https://jsonlint.com/)
 ![image](https://user-images.githubusercontent.com/32674614/156859296-0a861128-c821-4af7-8ecf-86aa850b12fc.png)
 
-![image](https://user-images.githubusercontent.com/32674614/156670845-64c01647-fad9-4e29-9e5c-72445ee04005.png)
+#### Conclusion Microsoft Azure environment didn't permint request.post  as the request.status returned 502 with gatewaay not allowed.
 
-### testing same JSON data in experiment (I get correct result)
-![image](https://user-images.githubusercontent.com/32674614/156671309-048e8553-dfdd-4a4a-85b1-ab4ac30e2810.png)
-![image](https://user-images.githubusercontent.com/32674614/156671321-3755b471-ec8e-4009-a2f2-03f149fdb947.png)
-![image](https://user-images.githubusercontent.com/32674614/156671342-9fbc9ef1-3d53-4ace-a04d-c4270aaa7b3f.png)
-
-### Validating Azure not permiting requests.post( ..to my user,resp.status_code return 502, access denied by gateway 
-![image](https://user-images.githubusercontent.com/32674614/156671539-628cff21-1075-4209-86d2-64696e91e92c.png)
-
-## Conclusion Microsoft Azure environment didn't permint request.post to my use.
-
-### running benchmark.sh
-![image](https://user-images.githubusercontent.com/32674614/156672014-ab4fbb52-fdef-4cb8-baa9-5a1b3236a0d7.png)
-![image](https://user-images.githubusercontent.com/32674614/156672048-1af9973a-19ec-41b7-b4e1-5dc1bee8c70f.png)
-
+- ### Fig 29.0:  Executing benchmark.sh
+   ![image](https://user-images.githubusercontent.com/32674614/156859498-fcf72f95-0fe6-4e8e-949c-32f9c3a4b347.png)
+   
+- ### Fig 29.1:  Output from  benchmark.sh
+   ![image](https://user-images.githubusercontent.com/32674614/156859536-e4d13480-b30e-4208-80eb-f1235017e409.png)
 
 ## Step 7: Create, Publish and Consume a Pipeline
 For this part of the project, I used Jupyter Notebook provided in the starter files. Changes made in the notebook to have the same keys, URI, dataset, cluster, and model names already created. 
