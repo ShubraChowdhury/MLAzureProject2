@@ -221,9 +221,7 @@ data = {"data":
 ## Step 7: Create, Publish and Consume a Pipeline
 For this part of the project, I used Jupyter Notebook provided in the starter files. Changes made in the notebook to have the same keys, URI, dataset, cluster, and model names already created. 
 
- - ![image](https://user-images.githubusercontent.com/32674614/156672213-e676fb08-5a82-422c-9c71-812bfc320373.png)
- - 
-#### For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a PipelineI created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK. 
+ For this step, I used the aml-pipelines-with-automated-machine-learning-step Jupyter Notebook to create a PipelineI created, consumed and published the best model for the bank marketing dataset using AutoML with Python SDK. 
 
 - ### Fig 30:  First pipeline running 
    ![image](https://user-images.githubusercontent.com/32674614/156859859-a57e43ce-aefe-4b89-8611-87c795262e68.png)
