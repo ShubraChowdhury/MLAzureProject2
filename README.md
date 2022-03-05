@@ -250,45 +250,19 @@ For this part of the project, I used Jupyter Notebook provided in the starter fi
    ![image](https://user-images.githubusercontent.com/32674614/156860523-c2d9c808-1168-4a26-aeea-1f4dc05d64ae.png)
 - ### Fig  38.1: pipeline run screen shots jupyter notebook
    ![image](https://user-images.githubusercontent.com/32674614/156860533-4797a456-12b9-485d-9feb-aabde73f12de.png)
+   
+- ### Fig  39:  Jupyter Notebook Confusion matrix
+![image](https://user-images.githubusercontent.com/32674614/156860609-5a795834-5e46-4fdf-9233-0ef6f1bea8e8.png)
 
- 
+- ### Fig  40.0:  Jupyter Notebook pipeline-rest-endpoint
+   ![image](https://user-images.githubusercontent.com/32674614/156860711-3febe995-3377-49d5-b5bb-a39ecdd89879.png)
+   
+- ### Fig  40.1:  Jupyter Notebook pipeline-rest-endpoint
+![image](https://user-images.githubusercontent.com/32674614/156860724-9a54f8a7-57f1-4338-b4e5-ed0c76c820e8.png)
+
 #
- - ![image](https://user-images.githubusercontent.com/32674614/156672267-cd5540dc-38bc-43e1-b90e-ad985b18ae9b.png)
-#### pipeline running
- - ![image](https://user-images.githubusercontent.com/32674614/156672294-21ce6c6b-9499-4421-aaa9-5b8b56fefcb4.png)
-#### notebook shows pipeline completed
- - ![image](https://user-images.githubusercontent.com/32674614/156672318-567545ac-0769-48fa-889b-f28cae372746.png)
-#### automl_bank_marketing_experiment completed (pipeline run overview)
- - ![image](https://user-images.githubusercontent.com/32674614/156672343-f32f4ea4-689c-498f-a973-da8d616ac578.png)
-#### pipeline run overview
- - ![image](https://user-images.githubusercontent.com/32674614/156672362-5ab779f2-3ad4-499f-9cff-793289c64338.png)
-#### VotingEnsemble found to be the best model 
- - ![image](https://user-images.githubusercontent.com/32674614/156672404-c556e165-a6f7-4fa6-9997-043aaaed1db5.png)
-#### VotingEnsemble metrics  
- - ![image](https://user-images.githubusercontent.com/32674614/156672421-8e4ef8ac-a7c1-4e72-a381-df948d11edb5.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672446-b98a6910-fbc0-4a1f-bc6a-cb627ea87c36.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672472-90d57039-3c6c-409e-8a5a-76e9bdc43426.png)
-#### Notebook Screen Details   
- - ![image](https://user-images.githubusercontent.com/32674614/156672491-2337ef08-30c1-4942-9c8f-3bbdcf396061.png)
-#### Notebook Smetrics output 
- - ![image](https://user-images.githubusercontent.com/32674614/156672512-5bf0f93e-fef7-4a55-8391-7d04e20125fc.png)
-#### Best model fetch in Notebook 
- - ![image](https://user-images.githubusercontent.com/32674614/156672541-43821ee1-cd28-4cf9-a8d8-6989fcef73e8.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672577-66d2a88c-0dd2-43d8-ab08-9cd41ba6ec11.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672595-9c120d38-542f-4790-b345-789895fefba2.png)
-#### Notebook confusion matrix 
- - ![image](https://user-images.githubusercontent.com/32674614/156672627-04ae6565-1307-4e4c-906a-4ba5383c6b25.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672657-4f875f13-1e42-44d8-b284-254601f62877.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672678-0b83c1c8-b641-4656-86ef-d64b37e9df1e.png)
-#### Pipelines 
- - ![image](https://user-images.githubusercontent.com/32674614/156672699-60b00adf-9e52-40e1-8819-a1586e6d7016.png)
-
-#### Additional screenshots 
- - ![image](https://user-images.githubusercontent.com/32674614/156672723-7a969a1c-bbe4-4fcc-8e18-96a8b01d9658.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672753-9542a89a-e292-46ad-a6f6-655324b5232a.png)
- - ![image](https://user-images.githubusercontent.com/32674614/156672773-2cf9ade1-0840-47f0-9fec-f0544aa183e9.png)
 ## [Screen Recording](https://www.youtube.com/watch?v=sPJjG5x-OAg)
-
+#
 ## Future Improvements
 ![image](https://user-images.githubusercontent.com/32674614/156679005-21c713c1-183c-4fd8-ab9b-887f73418193.png)
 - AutoML generated Class Balancing issue , this should be considered for future improvement.
